@@ -1,0 +1,2 @@
+# Unhandled FormatException in JSON Decoding
+This repository demonstrates a common error in Dart applications: failing to handle `FormatException` when decoding JSON responses.  The `bug.dart` file showcases the problematic code that assumes a JSON response without proper validation, leading to crashes. The solution, `bugSolution.dart`, provides an improved approach that handles potential errors gracefully.
